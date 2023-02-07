@@ -77,7 +77,9 @@ REQUIRED SECTIONS:
 
 > Link to the deployed project 👇
 
-- 👉 https://cointracker-q7ta.onrender.com/
+- 👉 Live Demo of Website :- [@Live_Demo_Render](https://cointracker-q7ta.onrender.com/)
+
+- 👉 Loom Video about this Project :- [@Loom_Video_Link](https://www.loom.com/share/5a8587dc420a4eb492c32e482ea7e051)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,6 +158,9 @@ Contributions are welcome...
 
 - Coinstats for their public API.
 🕸️ Official Website 👉 [@coinstats](https://coinstats.app/)
+
+-Render(Static App Hosting Platform)
+-StackOverflow
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
