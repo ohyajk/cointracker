@@ -16,13 +16,13 @@ Object {
             class="text-white flex items-center justify-center w-[90%] md:w-[60%] m-2"
           >
             <input
-              class="bg-[#0d0b13] px-4 py-2 outline-none w-[80%] border border-white/50 rounded-l-full focus:border-violet-600/50 focus:shadow-sm shadow-violet-400"
+              class="bg-[#c74076] px-4 py-2 outline-none w-[80%] border border-white rounded-l-full"
               placeholder="Search Coin name"
               required=""
               type="text"
             />
             <input
-              class="py-2 px-4 bg-[#1a1729] border border-white/50 hover:bg-violet-400/75 sm:w-[20%] cursor-pointer rounded-r-full"
+              class="py-2 px-4 bg-[#dd4984] border border-white hover:bg-[#ce457b] sm:w-[20%] cursor-pointer rounded-r-full"
               type="button"
               value="Search"
             />
@@ -30,7 +30,7 @@ Object {
         </div>
         <div>
           <ul
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+            class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 clr [&>*:nth-child(4n+2)]:bg-[#d1447a] [&>*:nth-child(4n-1)]:bg-[#d1447a]"
           />
            
           <div
@@ -62,13 +62,13 @@ Object {
           class="text-white flex items-center justify-center w-[90%] md:w-[60%] m-2"
         >
           <input
-            class="bg-[#0d0b13] px-4 py-2 outline-none w-[80%] border border-white/50 rounded-l-full focus:border-violet-600/50 focus:shadow-sm shadow-violet-400"
+            class="bg-[#c74076] px-4 py-2 outline-none w-[80%] border border-white rounded-l-full"
             placeholder="Search Coin name"
             required=""
             type="text"
           />
           <input
-            class="py-2 px-4 bg-[#1a1729] border border-white/50 hover:bg-violet-400/75 sm:w-[20%] cursor-pointer rounded-r-full"
+            class="py-2 px-4 bg-[#dd4984] border border-white hover:bg-[#ce457b] sm:w-[20%] cursor-pointer rounded-r-full"
             type="button"
             value="Search"
           />
@@ -76,7 +76,7 @@ Object {
       </div>
       <div>
         <ul
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+          class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 clr [&>*:nth-child(4n+2)]:bg-[#d1447a] [&>*:nth-child(4n-1)]:bg-[#d1447a]"
         />
          
         <div

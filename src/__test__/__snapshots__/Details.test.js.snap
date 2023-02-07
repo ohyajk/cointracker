@@ -6,89 +6,233 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex flex-col gap-2 justify-start items-center mt-10"
+        class="flex flex-col gap-2 justify-start items-between mt-10 [&>*:nth-child(2n+3)]:bg-[#d1447a]"
         data-testid="Details-1"
       >
         <img
-          class="h-20"
+          class="h-20 w-max ml-auto mr-auto"
         />
-        <h2>
-          Name :
-        </h2>
-        <h4>
-          Rank :
-        </h4>
-        <h4>
-          Total Supply :
-        </h4>
-        <h4>
-          Available Supply :
-        </h4>
-        <h4>
-          Price :
-        </h4>
-        <h4>
-          Price Change Weekly :
-          <span
-            class="text-green-400"
-          />
-        </h4>
-        <h4>
-          Price Change Daily :
-          <span
-            class="text-green-400"
-          />
-        </h4>
-        <h4>
-          Price Change Hourly :
-          <span
-            class="text-green-400"
-          />
-        </h4>
+        <div
+          class="flex justify-between px-4 py-4"
+        >
+          <span>
+            Name :
+          </span>
+          <span>
+            <i
+              class="fa-solid fa-circle-arrow-right pl-2"
+            />
+          </span>
+        </div>
+        <div
+          class="flex justify-between px-4 py-4"
+        >
+          <span>
+             Rank :
+          </span>
+          <span>
+            <i
+              class="fa-solid fa-circle-arrow-right pl-2"
+            />
+          </span>
+        </div>
+        <div
+          class="flex justify-between px-4 py-4"
+        >
+          <span>
+            Total Supply :
+          </span>
+          <span>
+            <i
+              class="fa-solid fa-circle-arrow-right pl-2"
+            />
+          </span>
+        </div>
+        <div
+          class="flex justify-between px-4 py-4"
+        >
+          <span>
+            Available Supply :
+          </span>
+          <span>
+            <i
+              class="fa-solid fa-circle-arrow-right pl-2"
+            />
+          </span>
+        </div>
+        <div
+          class="flex justify-between px-4 py-4"
+        >
+          <span>
+            Price :
+          </span>
+          <span>
+            <i
+              class="fa-solid fa-circle-arrow-right pl-2"
+            />
+          </span>
+        </div>
+        <div
+          class="flex justify-between px-4 py-4"
+        >
+          <span>
+             Price Change Weekly :
+          </span>
+          <span>
+            <span
+              class="text-green-400"
+            />
+            <i
+              class="fa-solid fa-circle-arrow-right pl-2"
+            />
+          </span>
+        </div>
+        <div
+          class="flex justify-between px-4 py-4"
+        >
+          <span>
+            Price Change Daily :
+          </span>
+          <span>
+            <span
+              class="text-green-400"
+            />
+            <i
+              class="fa-solid fa-circle-arrow-right pl-2"
+            />
+          </span>
+        </div>
+        <div
+          class="flex justify-between px-4 py-4"
+        >
+          <span>
+            Price Change Hourly :
+          </span>
+          <span>
+            <span
+              class="text-green-400"
+            />
+            <i
+              class="fa-solid fa-circle-arrow-right pl-2"
+            />
+          </span>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="flex flex-col gap-2 justify-start items-center mt-10"
+      class="flex flex-col gap-2 justify-start items-between mt-10 [&>*:nth-child(2n+3)]:bg-[#d1447a]"
       data-testid="Details-1"
     >
       <img
-        class="h-20"
+        class="h-20 w-max ml-auto mr-auto"
       />
-      <h2>
-        Name :
-      </h2>
-      <h4>
-        Rank :
-      </h4>
-      <h4>
-        Total Supply :
-      </h4>
-      <h4>
-        Available Supply :
-      </h4>
-      <h4>
-        Price :
-      </h4>
-      <h4>
-        Price Change Weekly :
-        <span
-          class="text-green-400"
-        />
-      </h4>
-      <h4>
-        Price Change Daily :
-        <span
-          class="text-green-400"
-        />
-      </h4>
-      <h4>
-        Price Change Hourly :
-        <span
-          class="text-green-400"
-        />
-      </h4>
+      <div
+        class="flex justify-between px-4 py-4"
+      >
+        <span>
+          Name :
+        </span>
+        <span>
+          <i
+            class="fa-solid fa-circle-arrow-right pl-2"
+          />
+        </span>
+      </div>
+      <div
+        class="flex justify-between px-4 py-4"
+      >
+        <span>
+           Rank :
+        </span>
+        <span>
+          <i
+            class="fa-solid fa-circle-arrow-right pl-2"
+          />
+        </span>
+      </div>
+      <div
+        class="flex justify-between px-4 py-4"
+      >
+        <span>
+          Total Supply :
+        </span>
+        <span>
+          <i
+            class="fa-solid fa-circle-arrow-right pl-2"
+          />
+        </span>
+      </div>
+      <div
+        class="flex justify-between px-4 py-4"
+      >
+        <span>
+          Available Supply :
+        </span>
+        <span>
+          <i
+            class="fa-solid fa-circle-arrow-right pl-2"
+          />
+        </span>
+      </div>
+      <div
+        class="flex justify-between px-4 py-4"
+      >
+        <span>
+          Price :
+        </span>
+        <span>
+          <i
+            class="fa-solid fa-circle-arrow-right pl-2"
+          />
+        </span>
+      </div>
+      <div
+        class="flex justify-between px-4 py-4"
+      >
+        <span>
+           Price Change Weekly :
+        </span>
+        <span>
+          <span
+            class="text-green-400"
+          />
+          <i
+            class="fa-solid fa-circle-arrow-right pl-2"
+          />
+        </span>
+      </div>
+      <div
+        class="flex justify-between px-4 py-4"
+      >
+        <span>
+          Price Change Daily :
+        </span>
+        <span>
+          <span
+            class="text-green-400"
+          />
+          <i
+            class="fa-solid fa-circle-arrow-right pl-2"
+          />
+        </span>
+      </div>
+      <div
+        class="flex justify-between px-4 py-4"
+      >
+        <span>
+          Price Change Hourly :
+        </span>
+        <span>
+          <span
+            class="text-green-400"
+          />
+          <i
+            class="fa-solid fa-circle-arrow-right pl-2"
+          />
+        </span>
+      </div>
     </div>
   </div>,
   "debug": [Function],
