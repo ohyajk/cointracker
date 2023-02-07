@@ -11,7 +11,7 @@ const Home = () => {
   const allCoins = useSelector((state) => state.coins.data.coins);
 
   return (
-    <div className="">
+    <div data-testid="home-1" className="">
       <div className="w-[100%] flex justify-center items-center">
         <form className="text-white flex items-center justify-center w-[90%] md:w-[60%] m-2">
           <input onKeyUp={(e) => { setQuery(e.target.value.toLowerCase()); }} className="bg-[#0d0b13] px-4 py-2 outline-none w-[80%] border border-white/50 rounded-l-full focus:border-violet-600/50 focus:shadow-sm shadow-violet-400" type="text" placeholder="Search Coin name" required />

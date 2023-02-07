@@ -1,80 +1,94 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render navbar 1`] = `
+exports[`should render Details 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="flex py-4 px-8 justify-between items-center"
-        data-testid="Navbar-1"
+        class="flex flex-col gap-2 justify-start items-center mt-10"
+        data-testid="Details-1"
       >
-        <a
-          aria-current="page"
-          class="invisible"
-          href="/"
-        >
-          <i
-            class="fa-solid fa-left-long"
-          />
-        </a>
-        <h2
-          class="text-2xl md:text-4xl font-black"
-        >
-          Coin
-          <span
-            class="text-violet-400"
-          >
-            Tracker
-          </span>
+        <img
+          class="h-20"
+        />
+        <h2>
+          Name :
         </h2>
-        <div
-          class="flex justify-center items-center gap-2"
-        >
-          <i
-            class="fa-solid fa-microphone"
+        <h4>
+          Rank :
+        </h4>
+        <h4>
+          Total Supply :
+        </h4>
+        <h4>
+          Available Supply :
+        </h4>
+        <h4>
+          Price :
+        </h4>
+        <h4>
+          Price Change Weekly :
+          <span
+            class="text-green-400"
           />
-          <i
-            class="fa-solid fa-gear"
+        </h4>
+        <h4>
+          Price Change Daily :
+          <span
+            class="text-green-400"
           />
-        </div>
+        </h4>
+        <h4>
+          Price Change Hourly :
+          <span
+            class="text-green-400"
+          />
+        </h4>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="flex py-4 px-8 justify-between items-center"
-      data-testid="Navbar-1"
+      class="flex flex-col gap-2 justify-start items-center mt-10"
+      data-testid="Details-1"
     >
-      <a
-        aria-current="page"
-        class="invisible"
-        href="/"
-      >
-        <i
-          class="fa-solid fa-left-long"
-        />
-      </a>
-      <h2
-        class="text-2xl md:text-4xl font-black"
-      >
-        Coin
-        <span
-          class="text-violet-400"
-        >
-          Tracker
-        </span>
+      <img
+        class="h-20"
+      />
+      <h2>
+        Name :
       </h2>
-      <div
-        class="flex justify-center items-center gap-2"
-      >
-        <i
-          class="fa-solid fa-microphone"
+      <h4>
+        Rank :
+      </h4>
+      <h4>
+        Total Supply :
+      </h4>
+      <h4>
+        Available Supply :
+      </h4>
+      <h4>
+        Price :
+      </h4>
+      <h4>
+        Price Change Weekly :
+        <span
+          class="text-green-400"
         />
-        <i
-          class="fa-solid fa-gear"
+      </h4>
+      <h4>
+        Price Change Daily :
+        <span
+          class="text-green-400"
         />
-      </div>
+      </h4>
+      <h4>
+        Price Change Hourly :
+        <span
+          class="text-green-400"
+        />
+      </h4>
     </div>
   </div>,
   "debug": [Function],

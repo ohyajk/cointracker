@@ -5,7 +5,7 @@ const Details = () => {
   const details = useSelector((state) => state.coins.selectedCoin);
 
   return (
-    <div className="flex flex-col gap-2 justify-start items-center mt-10">
+    <div data-testid="Details-1" className="flex flex-col gap-2 justify-start items-center mt-10">
       <img className="h-20" src={details.icon} alt={details.name} />
       <h2>
         Name :
