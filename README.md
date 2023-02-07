@@ -151,6 +151,9 @@ Contributions are welcome...
 
 > I would like to thank...
 
+-Nelson Sakva for Original Design 
+🕸️ Official Behance Page 👉 [@NelsonSakva](https://www.behance.net/sakwadesignstudio)
+
 - Coinstats for their public API.
 🕸️ Official Website 👉 [@coinstats](https://coinstats.app/)
 
