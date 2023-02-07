@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
-  <div className="flex py-4 px-8 justify-between items-center">
+  <div data-testid="nav-1" className="flex py-4 px-8 justify-between items-center">
     <NavLink
       to="/"
       className={({ isActive }) => (isActive ? 'invisible' : 'visible')}
