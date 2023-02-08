@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: #ec4c8b;
+  background-color: #110f1a;
   backdrop-filter: blur(20px);
   color: white;
   font-family:
@@ -39,7 +39,7 @@ li {
   }
 
   50% {
-    color: #ec4c8b;
+    color: #a78bfa;
   }
 
   100% {
